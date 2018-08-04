@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ -z "$2" ]; then
+  echo "Usage: $0 <username> <password>" >&2
+  exit 1
+fi
+
+username=$1
+password=$2
+
+printf "\\0%s\\0%s" "$username" "$password" | base64

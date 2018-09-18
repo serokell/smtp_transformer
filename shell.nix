@@ -1,12 +1,6 @@
 with import <nixpkgs> {};
 
 stdenv.mkDerivation {
-  name = "youtrack_mail_proxy";
+  name = "smtp_transformer";
   buildInputs = [ elixir telnet ];
-
-  shellHook = ''
-    mix local.hex --force
-    mix local.rebar --force
-    mix deps.get
-  '';
 }

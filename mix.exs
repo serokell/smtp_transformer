@@ -3,7 +3,7 @@ defmodule YouTrackMailProxy.MixProject do
 
   def project do
     [
-      app: :youtrack_mail_proxy,
+      app: :smtp_transformer,
       version: "0.0.0",
       deps: [
         config_macro: "~> 0.1.0",
@@ -11,9 +11,5 @@ defmodule YouTrackMailProxy.MixProject do
         secure_compare: "~> 0.1.0"
       ]
     ]
-  end
-
-  def application do
-    [mod: {YouTrackMailProxy, []}]
   end
 end

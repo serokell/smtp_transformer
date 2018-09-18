@@ -1,5 +1,0 @@
-%{
-  "config_macro": {:hex, :config_macro, "0.1.0", "0f818f42a6821d0adca8862b1619c9064e1d69ac1913f53812c798fce52f60a3", [:mix], [], "hexpm"},
-  "gen_smtp": {:hex, :gen_smtp, "0.12.0", "97d44903f5ca18ca85cb39aee7d9c77e98d79804bbdef56078adcf905cb2ef00", [:rebar3], [], "hexpm"},
-  "secure_compare": {:hex, :secure_compare, "0.1.0", "01b3c93c8edb696e8a5b38397ed48e10958c8a5ec740606656445bcbec0aadb8", [:mix], [], "hexpm"},
-}
